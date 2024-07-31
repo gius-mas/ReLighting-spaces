@@ -1,5 +1,5 @@
 # ReLighting spaces - Training daylight access cognition in combinatorial spatial assemblages using Reinforcement Learning  
-This repository contains RL models an GH-definitions from the paper "ReLighting spaces - Training daylight access cognition in combinatorial spatial assemblages using Reinforcement Learning" by Giuseppe Massafra, Alessio Erioli presented on the FMA 2024 Conference. This repository contains both source code for Python and GH-definition tu use RL-trained agents involved in combinatorial process to build spatial assemblies with adaptive control over daylight condition.
+This repository contains RL models an GH-definitions from the paper "ReLighting spaces - Training daylight access cognition in combinatorial spatial assemblages using Reinforcement Learning" by Giuseppe Massafra, Alessio Erioli presented on the FMA 2024 Conference. This repository contains both source code for Python and GH-definition tu use RL-trained agents involved in combinatorial process to build spatial assemblies with adaptive control over daylight access conditions.
 
 # Installation 
 Install Anaconda.
