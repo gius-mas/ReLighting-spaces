@@ -29,6 +29,7 @@ Go to the folder where your scripts are: copy the address from the address bar i
   cd C:\Users\myUserName\Documents\ReLIghting-spaces
 ````
 Open PPO model 2.0.gh in Grasshopper and reset the Hoopsanke component. Then run load_model.py
+```bash
   python load_model.py
 ````
 Go back to GH and loop the Hoopsnake component.
