@@ -28,9 +28,8 @@ Go to the folder where your scripts are: copy the address from the address bar i
 ```bash
   cd C:\Users\myUserName\Documents\ReLIghting-spaces
 ````
-Open PPO_model2.0.gh in Grasshopper and reset the Hoopsanke component. Then run PPO_model2.0.py
-```bash
-  python PPO_model2.0.py
+Open PPO model 2.0.gh in Grasshopper and reset the Hoopsanke component. Then run load_model.py
+  python load_model.py
 ````
 Go back to GH and loop the Hoopsnake component.
 After this the agent will start to build-up an assembly
