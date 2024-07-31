@@ -17,7 +17,7 @@ In order to use gym environments, also install shimmy and swig
 ````
 You need also to install these GH plug-in:
 - Hoopsnake for recoursive loops in GH
-- Ladybug tools for solar analysis
+- Ladybug Tools for solar analysis
 
 # Usage
 Run a istance of the Anaconda Powershell, and do the following
