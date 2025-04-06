@@ -10,7 +10,9 @@ Building on Watanabe's work, this study aims to bind combinatorial logic with to
 The research introduces condition-based adaptivity into a combinatorial process by means of RL training, moving beyond both random choice and predetermined heuristics sets; although both can relate to boundary conditions, they are respectively non-controllable and tied to a specific environmental scenario. Through the agent’s trained policy, the system learns a state-action-reward relationship in a process of continuous feedback between space, environment and climate data that applies to any environmental configuration that can be coded in the system’s terms.
 The study is implemented coupling state-of-the-art Python RL libraries (Stable Baselines 3, Gymnasium) and the Rhino+Grasshopper environment for modelling, daylight factor calculation, and visualization, building a custom infrastructure for bidirectional data communication between computing environments during the training and inference phases.
 
-# Installation 
+# Installation
+Disclaimer: The following workflows have been tested and work correctly with Rhino 7, with an update for Rhino 8 compatibility currently in development.
+
 Install Anaconda.
 Create Python 3.8 environment and install `stable-baselines3` and `gymnasium` by running the following commands
 ```bash
@@ -26,7 +28,10 @@ In order to use gym environments, also install shimmy and swig
 ````
 You need also to install these GH plug-in:
 - Hoopsnake for recoursive loops in GH
-- Ladybug Tools for solar analysis
+- Ladybug Tools (version 1.6) for solar analysis
+- Mesh tools (for space voxelization)
+- Please install the others plug-ins requested when opening the GH file in the folder
+
 
 # Usage
 Run a istance of the Anaconda Powershell, and do the following
