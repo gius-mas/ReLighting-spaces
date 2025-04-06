@@ -11,7 +11,7 @@ The research introduces condition-based adaptivity into a combinatorial process 
 The study is implemented coupling state-of-the-art Python RL libraries (Stable Baselines 3, Gymnasium) and the Rhino+Grasshopper environment for modelling, daylight factor calculation, and visualization, building a custom infrastructure for bidirectional data communication between computing environments during the training and inference phases.
 
 # Installation
-Disclaimer: The following workflows have been tested and work correctly with Rhino 7, with an update for Rhino 8 compatibility currently in development.
+The following workflows have been tested and work correctly with Rhino 7, with an update for Rhino 8 compatibility currently in development.
 
 Install Anaconda.
 Create Python 3.8 environment and install `stable-baselines3` and `gymnasium` by running the following commands
